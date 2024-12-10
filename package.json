@@ -14,6 +14,7 @@
 		"db:migrate": "drizzle-kit migrate",
 		"db:studio": "drizzle-kit studio"
 	},
+	
 	"devDependencies": {
 		"@eslint/compat": "^1.2.3",
 		"@sveltejs/adapter-auto": "^3.0.0",
@@ -40,5 +41,8 @@
 		"@neondatabase/serverless": "^0.9.4",
 		"@tailwindcss/typography": "^0.5.15",
 		"drizzle-orm": "^0.33.0"
+	},
+	"engines": {
+	  "node": "22.x"
 	}
 }
